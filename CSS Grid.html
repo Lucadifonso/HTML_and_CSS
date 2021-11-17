@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*grid-column-gap: 1em;*/
+            /*grid-row-gap: 1em;*/
+            grid-gap: 1em;
+        }
+        .grid > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .grid > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Assumenda autem consequatur corporis,
+            cum eveniet explicabo odio officiis omnis qui repellendus sunt,
+            tempora veniam voluptatibus.
+            Corporis impedit ipsum nemo odio repudiandae.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Assumenda autem consequatur corporis,
+            cum eveniet explicabo odio officiis omnis qui repellendus sunt,
+            tempora veniam voluptatibus.
+            Corporis impedit ipsum nemo odio repudiandae.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Assumenda autem consequatur corporis,
+            cum eveniet explicabo odio officiis omnis qui repellendus sunt,
+            tempora veniam voluptatibus.
+            Corporis impedit ipsum nemo odio repudiandae.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Assumenda autem consequatur corporis,
+            cum eveniet explicabo odio officiis omnis qui repellendus sunt,
+            tempora veniam voluptatibus.
+            Corporis impedit ipsum nemo odio repudiandae.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Assumenda autem consequatur corporis,
+            cum eveniet explicabo odio officiis omnis qui repellendus sunt,
+            tempora veniam voluptatibus.
+            Corporis impedit ipsum nemo odio repudiandae.
+        </div>
+    </div>
+</body>
+</html>
